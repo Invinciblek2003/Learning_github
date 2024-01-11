@@ -1,1 +1,25 @@
 #Here I am learning Github 10-01-2024
+
+Steps to follow to push your local code to remote repository 
+
+1)git init
+- It will initiate a empty git repository on your local system 
+
+2)git add .
+  -This will add your untracked files to the staging area of your local repository
+
+3)git commit -m "message" 
+   - This will commit or save all changes made to your local repository and it will save all your files in the staging area.
+
+4)git remote add origin {URL of remote repo}
+  - This will link a remote repository to your local repository.
+  -It will set remote repository to origin.
+
+5)git remote -v
+  -This will show all the associated repo's
+
+6)git push origin main
+   -It will push all the changes made to your local repositpory to the main branch of your remote repository.
+
+7)git pull origin main
+   -It will pull all the changes made to your remote repository to your local repository on the pc.

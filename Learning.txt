@@ -23,3 +23,8 @@ Steps to follow to push your local code to remote repository
 
 7)git pull origin main
    -It will pull all the changes made to your remote repository to your local repository on the pc.
+
+## How to add .gitignore file
+1)Make .gitignore file at local add the necessary info. 
+2)Commit and push 
+3)You can refer to learning_github repository
